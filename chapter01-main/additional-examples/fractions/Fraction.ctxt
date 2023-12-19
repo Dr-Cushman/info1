@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Fraction
+comment0.text=\n\ Represents\ a\ Fraction.\n\ (dt.\:\ Bruch)\n\ \n\ @author\ Barne\ Kleinen\n
+comment1.params=numerator\ denominator
+comment1.target=Fraction(int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=
+comment3.target=double\ getValue()
+numComments=4

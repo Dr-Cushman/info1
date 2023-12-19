@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=TestFraction
+comment0.text=\n\ Demonstrates\ the\ Fraction\ Class.\n\ \n\ @author\ Barne\ Kleinen\ \n
+comment1.params=
+comment1.target=void\ testOneHalf()
+comment2.params=
+comment2.target=void\ testOneThird()
+numComments=3

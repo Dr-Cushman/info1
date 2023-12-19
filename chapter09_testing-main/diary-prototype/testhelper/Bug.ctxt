@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Bug
+comment1.params=expected\ actual
+comment1.target=void\ assertEqualsBug(java.lang.Object,\ java.lang.Object)
+comment2.params=expected\ lambda
+comment2.target=void\ assertEqualsBugException(java.lang.Object,\ java.util.function.Supplier)
+numComments=3

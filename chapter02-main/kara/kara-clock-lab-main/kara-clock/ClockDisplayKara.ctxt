@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ClockDisplayKara
+comment0.text=\n\ Write\ a\ description\ of\ class\ ClockDisplayKara\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=stepsToFirstKara
+comment1.target=ClockDisplayKara(int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ ClockDisplayKara\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment3.params=
+comment3.target=void\ tick()
+comment4.params=hours\ minutes
+comment4.target=void\ setTime(int,\ int)
+comment5.params=
+comment5.target=void\ start()
+comment6.params=
+comment6.target=void\ stop()
+comment7.params=world
+comment7.target=void\ addedToWorld(greenfoot.World)
+numComments=8

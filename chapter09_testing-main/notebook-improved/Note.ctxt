@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Note
+comment1.params=title\ text
+comment1.target=Note(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=other
+comment3.target=boolean\ equals(java.lang.Object)
+comment4.params=
+comment4.target=int\ hashCode()
+comment5.params=
+comment5.target=java.lang.String\ getTitle()
+comment6.params=
+comment6.target=java.lang.String\ getText()
+comment7.params=title
+comment7.target=void\ setTitle(java.lang.String)
+comment8.params=text
+comment8.target=void\ setText(java.lang.String)
+numComments=9

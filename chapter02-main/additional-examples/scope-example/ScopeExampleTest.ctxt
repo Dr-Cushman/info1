@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ScopeExampleTest
+comment0.text=\n\ The\ test\ class\ ScopeExampleTest.\n\n\ @author\ \ Barne\ Kleinen\n
+comment1.params=
+comment1.target=ScopeExampleTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ ScopeExampleTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Sets\ up\ the\ test\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ testSe1Field()
+comment4.params=
+comment4.target=void\ testSe1Local()
+comment5.params=
+comment5.target=void\ test2Instances()
+numComments=6

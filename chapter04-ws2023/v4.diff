@@ -1,0 +1,104 @@
+49c49
+<         if(validIndex(index)) {
+---
+>         if(index >= 0 && index < files.size()) {
+65a66,113
+>      * List the names of files matching the given search string.
+>      * @param searchString The string to match.
+>      */
+>     public void listMatching(String searchString)
+>     {
+>         for(String filename : files) {
+>             if(filename.contains(searchString)) {
+>                 // A match.
+>                 System.out.println(filename);
+>             }
+>         }
+>     }
+> 
+>     /**
+>      * Find the index of the first file matching the given
+>      * search string.
+>      * @param searchString The string to match.
+>      * @return The index of the first occurrence, or -1 if
+>      *         no match is found.
+>      */
+>     public int findFirst(String searchString)
+>     {
+>         int index = 0;
+>         // Record that we will be searching until a match is found.
+>         boolean searching = true;
+>     
+>         while(searching && index < files.size()) {
+>             String filename = files.get(index);
+>             if(filename.contains(searchString)) {
+>                 // A match. We can stop searching.
+>                 searching = false;
+>             }
+>             else {
+>                 // Move on.
+>                 index++;
+>             }
+>         }
+>         if(searching) {
+>             // We didn't find it.
+>             return -1;
+>         }
+>         else {
+>             // Return where it was found.
+>             return index;
+>         }
+>     }
+> 
+>     /**
+71c119
+<         if(validIndex(index)) {
+---
+>         if(index >= 0 && index < files.size()) {
+83,86c131,132
+<         if(validIndex(index)) {
+<             String filename = files.get(index);
+<             player.startPlaying(filename);
+<         }
+---
+>         String filename = files.get(index);
+>         player.startPlaying(filename);
+96,133d141
+< 
+<     /**
+<      * Play a file in the collection. Only return once playing has finished.
+<      * @param index The index of the file to be played.
+<      */
+<     public void playAndWait(int index)
+<     {
+<         if(validIndex(index)) {
+<             String filename = files.get(index);
+<             player.playSample(filename);
+<         }
+<     }
+< 
+<     /**
+<      * Determine whether the given index is valid for the collection.
+<      * Print an error message if it is not.
+<      * @param index The index to be checked.
+<      * @return true if the index is valid, false otherwise.
+<      */
+<     private boolean validIndex(int index)
+<     {
+<         // The return value.
+<         // Set according to whether the index is valid or not.
+<         boolean valid;
+<         
+<         if(index < 0) {
+<             System.out.println("Index cannot be negative: " + index);
+<             valid = false;
+<         }
+<         else if(index >= files.size()) {
+<             System.out.println("Index is too large: " + index);
+<             valid = false;
+<         }
+<         else {
+<             valid = true;
+<         }
+<         return valid;
+<     }

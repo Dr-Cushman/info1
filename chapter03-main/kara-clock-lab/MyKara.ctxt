@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MyKara
+comment0.text=\r\n\ MyKara\ is\ a\ subclass\ of\ Kara.\ Therefore,\ it\ inherits\ all\ methods\ of\ Kara\:\ <p>\r\n\ \r\n\ <i>MyKara\ ist\ eine\ Unterklasse\ von\ Kara.\ Sie\ erbt\ damit\ alle\ Methoden\ der\ Klasse\ Kara\:</i>\ <p>\r\n\ \r\n\ Actions\:\ \ \ \ \ move(),\ turnLeft(),\ turnRight(),\ putLeaf(),\ removeLeaf()\ <b>\r\n\ Sensors\:\ \ \ \ \ onLeaf(),\ treeFront(),\ treeLeft(),\ treeRight(),\ mushroomFront()\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ In\ the\ 'act()'\ method\ you\ can\ write\ your\ program\ for\ Kara\ <br>\r\n\ <i>In\ der\ Methode\ 'act()'\ koennen\ die\ Befehle\ fuer\ Kara\ programmiert\ werden</i>\r\n
+numComments=2

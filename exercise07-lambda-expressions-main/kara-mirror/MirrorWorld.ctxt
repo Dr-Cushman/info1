@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MirrorWorld
+comment1.params=
+comment1.target=MirrorWorld()
+comment1.text=\n\ Creates\ a\ world\ for\ Kara.\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\n\ Prepare\ the\ world,\ i.e.\ create\ all\ initial\ actors.\n\ \n\ Hint\:\n\ First\ create\ and\ position\ all\ Actors\ with\ the\ mouse\ in\ the\ world.\n\ Then\ right-click\ on\ the\ world\ and\ choose\ 'Save\ the\ World'.\ This\ will\n\ automatically\ generate\ the\ content\ of\ this\ method.\n
+comment3.params=middlex\ y\ widthToLeft
+comment3.target=void\ randomRow(int,\ int,\ int)
+numComments=4

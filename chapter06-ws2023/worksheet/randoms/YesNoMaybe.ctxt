@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=YesNoMaybe
+comment1.params=
+comment1.target=YesNoMaybe()
+comment2.params=
+comment2.target=java.lang.String\ randomAnswer()
+comment3.params=
+comment3.target=void\ demo()
+numComments=4

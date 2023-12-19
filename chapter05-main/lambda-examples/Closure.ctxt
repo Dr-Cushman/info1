@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Closure
+comment1.params=n
+comment1.target=java.util.function.IntUnaryOperator\ createAdder(int)
+comment2.params=
+comment2.target=void\ adderDemo()
+comment3.params=
+comment3.target=void\ bindingDemo()
+numComments=4

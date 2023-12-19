@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Info1Group
+comment0.text=\n\ Info1\ Group\ creates\ a\ LabClass\ with\ your\ Group\n\ as\ enrolled\ Students.\n\n\ @author\ Barne\ Kleinen\n
+comment1.params=
+comment1.target=Info1Group()
+comment2.params=
+comment2.target=LabClass\ createGroup()
+numComments=3

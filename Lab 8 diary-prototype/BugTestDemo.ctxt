@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BugTestDemo
+comment0.text=\r\n\ This\ Class\ shows\ an\ example\ how\ to\ document\ a\ bug\r\n\ with\ using\ assertEqualsBug\ from\ the\ testhelper\ \r\n\ package\r\n\r\n\ @author\ Barne\ Kleinen\r\n
+comment1.params=
+comment1.target=BugTestDemo()
+comment2.params=
+comment2.target=void\ demoOKTest()
+comment3.params=
+comment3.target=void\ demoBugTest()
+comment4.params=
+comment4.target=void\ demoBugTestExceptionThrown()
+comment5.params=
+comment5.target=java.lang.String\ throwsException()
+comment6.params=
+comment6.target=java.lang.String\ throwsNOException()
+comment7.params=
+comment7.target=void\ demoBugTestNOExceptionThrown()
+comment8.params=
+comment8.target=java.lang.String\ throwsNOExceptionButReturnsWrongValue()
+comment9.params=
+comment9.target=void\ demoBugTestNOExceptionThrownButStillFailing()
+numComments=10

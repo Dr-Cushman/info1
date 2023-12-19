@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Temperature
+comment0.text=\n\ Represents\ a\ single\ Temperature\ value.\n\ Can\ be\ asked\ for\ its\ value\ in\ degrees\ \n\ celsius\ and\ fahrenheit\n\n\ @author\ Barne\ Kleinen\n
+comment1.params=celsius
+comment1.target=Temperature(double)
+comment2.params=
+comment2.target=double\ getCelsius()
+comment3.params=
+comment3.target=double\ getFahrenheit()
+numComments=4

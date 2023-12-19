@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ObjectReferencePlayground
+comment0.text=\n\ This\ class\ is\ an\ exercise\ in\ understanding\ object\ references.\n\ First,\ start\ the\ code\ Quizz\ by\ setting\ ON\ \=\ true;\n\ Go\ through\ the\ test\ cases,\ and\ find\ the\ places\ where\ you\ need\ \n\ to\ fill\ in\ your\ solution,\ for\ example\:\n\ expect(____,note1.getText());\n\ \n\ replace\ the\ ____\ with\ your\ expectation\ of\ the\ result.\n
+comment1.params=
+comment1.target=ObjectReferencePlayground()
+comment2.params=
+comment2.target=void\ getText01()
+comment3.params=
+comment3.target=void\ getText02WithSecondNote()
+comment4.params=
+comment4.target=void\ getText03WithSecondNote()
+numComments=5

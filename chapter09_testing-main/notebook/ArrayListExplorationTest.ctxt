@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ArrayListExplorationTest
+comment1.params=
+comment1.target=ArrayListExplorationTest()
+comment1.text=\n\ Default\ constructor\ needs\ to\ be\ present\ for\ JUnit\!\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Create\ an\ ArrayList\ with\ four\ elements\ as\ text\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ exploreAddWithIndex()
+comment4.params=
+comment4.target=void\ removeShiftsRestToLeft()
+numComments=5

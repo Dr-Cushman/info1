@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ObjectsInCollectionsQuizz
+comment0.text=\n\ This\ class\ is\ an\ exercise\ in\ understanding\ object\ references.\n\ First,\ start\ the\ code\ Quizz\ by\ setting\ ON\ \=\ true;\n\ Go\ through\ the\ test\ cases,\ and\ find\ the\ places\ where\ you\ need\ \n\ to\ fill\ in\ your\ solution,\ for\ example\:\n\ expect(____,note1.getText());\n\ \n\ replace\ the\ ____\ with\ your\ expectation\ of\ the\ result.\n
+comment1.params=
+comment1.target=ObjectsInCollectionsQuizz()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ObjectsInCollectionsQuizz\n
+comment2.params=
+comment2.target=void\ setUp()
+comment3.params=
+comment3.target=void\ testChange01()
+comment4.params=
+comment4.target=void\ testChange02()
+comment5.params=
+comment5.target=void\ testIdentity()
+comment6.params=
+comment6.target=void\ testChange03()
+comment7.params=
+comment7.target=void\ twoNotebooks()
+comment8.params=
+comment8.target=void\ twoNotebooksCopy()
+numComments=9

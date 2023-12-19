@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PolarPoint
+comment0.text=\n\ This\ is\ a\ point\ that\ takes\ polar\ coordinates\ for\ creation\n\ and\ has\ getters\ for\ karthesian\ coordinates.\n\ Implement\ the\ constructor\ and\ the\ getters.\ Note\ that\ you\n\ need\ to\ decide\ on\ how\ you\ store\ the\ point\ internally.\n\ \n
+comment1.params=angle\ radius
+comment1.target=PolarPoint(int,\ double)
+comment2.params=
+comment2.target=int\ getX()
+comment3.params=
+comment3.target=int\ getY()
+numComments=4

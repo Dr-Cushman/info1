@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Lotto
+comment0.text=\n\ Draw\ and\ count\ Lotto\ Numbers\n\n\ @author\ Barne\ Kleinen\n
+comment1.params=
+comment1.target=java.util.Set\ drawLotto()
+comment1.text=\n\ The\ Method\ drawLotto()\ creates\ a\ new\ HashSet\ called\n\ lottoNumbers,\ where\ it\ will\ be\ filled\ through\ a\n\ while-loop\ with\ six\ random\ numbers\ between\ 1\ and\ 49.\n
+comment2.params=iterations
+comment2.target=int[]\ countNumbers(int)
+comment2.text=\n\ The\ countNumbers()\ method\ takes\ an\ integer\ for\ the\n\ Iterations\ it\ has\ to\ do.\ In\ the\ method\ an\ Array\ with\n\ a\ size\ of\ 50\ is\ created\ called\ frequencyTable.\ This\n\ table\ is\ then\ filled\ with\ ones\ for\ every\ number\ there\n\ is\ in\ a\ drawLotto()\ Iteration.\n
+comment3.params=iterations
+comment3.target=void\ generateAndPrintFrequencyTable(int)
+comment3.text=\n\ The\ generateAndPrintFrequencyTable()\ just\ uses\ the\n\ countNumbers()\ method\ and\ prints\ them\ out\ in\ a\ readable\n\ state\ in\ the\ console.\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

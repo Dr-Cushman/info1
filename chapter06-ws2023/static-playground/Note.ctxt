@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Note
+comment1.params=text
+comment1.target=Note(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Note\n
+comment2.params=
+comment2.target=void\ demo()
+numComments=3

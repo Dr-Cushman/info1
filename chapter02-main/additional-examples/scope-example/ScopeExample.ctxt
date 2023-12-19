@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ScopeExample
+comment0.text=\n\ This\ class\ demonstrates\ the\ differences\ in\ \n\ Scope\ between\ instance\ variables\ (fields)\ and\ local\ variables.\n\n\ @author\ Barne\ Kleinen\n
+comment1.params=
+comment1.target=int\ countField()
+comment2.params=
+comment2.target=int\ countLocal()
+comment3.params=
+comment3.target=int\ getX()
+numComments=4

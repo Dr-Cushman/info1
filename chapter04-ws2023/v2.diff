@@ -1,0 +1,27 @@
+4a5
+>  * This version can play the files.
+12a14,15
+>     // A player for the music files.
+>     private MusicPlayer player;
+19a23
+>         player = new MusicPlayer();
+61a66,84
+> 
+>     /**
+>      * Start playing a file in the collection.
+>      * Use stopPlaying() to stop it playing.
+>      * @param index The index of the file to be played.
+>      */
+>     public void startPlaying(int index)
+>     {
+>         String filename = files.get(index);
+>         player.startPlaying(filename);
+>     }
+> 
+>     /**
+>      * Stop the player.
+>      */
+>     public void stopPlaying()
+>     {
+>         player.stop();
+>     }

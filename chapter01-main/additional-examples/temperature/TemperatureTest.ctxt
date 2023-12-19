@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TemperatureTest
+comment0.text=\n\ The\ test\ class\ TemperatureTest.\n\n\ @author\ \ Barne\ Kleinen\n
+comment1.params=
+comment1.target=void\ testCelsius()
+comment2.params=
+comment2.target=void\ testFahrenheit()
+comment3.params=
+comment3.target=void\ testMany()
+numComments=4

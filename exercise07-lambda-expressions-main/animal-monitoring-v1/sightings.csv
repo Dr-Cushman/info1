@@ -1,0 +1,21 @@
+# Fields: spotter,animal,count,area,period
+0,Komodo dragon,3,1,0
+0,Kakapo,10,1,0,
+0,Amazonian manatee,0,1,0
+1,Komodo dragon,1,2,0
+2,Komodo dragon,3,3,0
+3,Komodo dragon,0,2,0
+3,Kakapo,2,1,0
+3,Aye-aye,25,1,0
+
+0,Komodo dragon,4,1,1
+0,Kakapo,16,1,1,
+1,Aye-aye,20,1,1,
+3,Kakapo,0,2,1
+3,Aye-aye,30,2,1
+
+0,Komodo dragon,1,1,2
+1,Komodo dragon,2,2,2
+2,Komodo dragon,0,3,2
+3,Aye-aye,30,2,2
+3,Amazonian manatee,24,2,2

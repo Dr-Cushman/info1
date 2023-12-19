@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=NotebookTest
+comment0.text=\n\ The\ test\ class\ NotebookTest.\n\n@author\ \ B.\ Kleinen
+comment1.params=
+comment1.target=NotebookTest()
+comment1.text=\n\ Default\ constructor\ for\ test\ class\ NotebookTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Create\ a\ Notebook\ with\ four\ notes\ as\ text\ fixture.\n\n\ Called\ before\ every\ test\ case\ method.\n
+comment3.params=
+comment3.target=void\ testGetAllEmpty()
+comment4.params=
+comment4.target=void\ testGetAllOneElement()
+comment5.params=
+comment5.target=void\ testGetAllTwoElements()
+comment6.params=
+comment6.target=void\ testGetAllDelim()
+comment7.params=
+comment7.target=void\ testGetAllDefault()
+numComments=8

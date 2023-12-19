@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Functions
+comment0.text=\n\ Example\ for\ simple\ Math\ functions\ as\ Lambdas.\n\n\ @author\ Barne\ Kleinen\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Functions()
+comment2.params=
+comment2.target=void\ demo()
+comment3.params=from\ to\ step
+comment3.target=void\ printValuesFromTo(int,\ int,\ int)
+comment3.text=\ \n\ let's\ say\ you're\ writing\ a\ method\ that\ plots\ a\ function,\n\ or,\ for\ the\ ease\ of\ implementation,\ computes\ and\ prints\n\ the\ values\ in\ a\ specified\ range.\n
+comment4.params=
+comment4.target=void\ demoLambdaStraight()
+comment4.text=\n\ it\ would\ be\ nice\ if\ the\ function\ could\ be\ passed\ as\ a\ \n\ parameter\!\ Here's\ how\ we\ would\ use\ it\:\n
+comment5.params=message\ from\ to\ step\ f
+comment5.target=void\ printValuesFromToF(java.lang.String,\ int,\ int,\ int,\ java.util.function.IntToDoubleFunction)
+comment5.text=\n\ and\ here's\ the\ enhanced\ printValuesFromToF\ method\n\ that\ takes\ the\ funtion\ -\ a\ IntToDoubleFunction\ -\ \n\ as\ Parameter\n
+comment6.params=
+comment6.target=void\ demoLambdaLoop()
+comment6.text=\n\ Repeating\ the\ same\ thing\ more\ than\ once\ should\ be\ done\ in\n\ a\ loop,\ so\ let's\ put\ the\ functions\ in\ an\ array\ and\ call\ \n\ the\ method\ in\ a\ loop.\n
+comment7.params=
+comment7.target=void\ avoidForLoop()
+numComments=8
