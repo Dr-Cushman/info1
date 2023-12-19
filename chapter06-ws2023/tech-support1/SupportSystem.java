@@ -38,10 +38,10 @@ public class SupportSystem
 
         while(!finished) {
             // Assign String input the input string and trim it
-            String input = reader.getInput().trim();
+            String input = reader.getInput().trim().toLowerCase();
 
             
-            if(input.startsWith("bye")) {
+            if(input.equals("bye")) {
                 finished = true;
             }
             else {
