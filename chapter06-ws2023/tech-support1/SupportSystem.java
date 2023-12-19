@@ -37,8 +37,10 @@ public class SupportSystem
         printWelcome();
 
         while(!finished) {
-            String input = reader.getInput();
+            // Assign String input the input string and trim it
+            String input = reader.getInput().trim();
 
+            
             if(input.startsWith("bye")) {
                 finished = true;
             }
@@ -80,7 +82,4 @@ public class SupportSystem
      * java SupportSystem
      * 
      */
-    public static void main(String[] args){
-        new SupportSystem().start();
-    }
 }
