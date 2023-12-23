@@ -6,7 +6,7 @@ public class RandomTester {
     // Create an ArrayList with some answers
     private ArrayList<String> responseList = new ArrayList<String>();
 
-    public void addItems() {
+    public RandomTester() {
         responseList.add("Random Response 1");
         responseList.add("Random Response 2");
         responseList.add("Random Response 3");
@@ -47,6 +47,7 @@ public class RandomTester {
 
     public static void main(String[] args) {
         RandomTester randomTester = new RandomTester();
+        randomTester.getRandomResponse();
         randomTester.randomBetween(1, 5);
     }
 }

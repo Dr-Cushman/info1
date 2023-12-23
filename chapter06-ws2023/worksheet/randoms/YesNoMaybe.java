@@ -16,7 +16,7 @@ public class YesNoMaybe
         return answers.get(random.nextInt(answers.size()));
     }
 
-    public static void demo(){
+    public static void main(String[] args){
         YesNoMaybe ynm = new YesNoMaybe();
         for(int i = 0; i<100; i++){
             System.out.println(ynm.randomAnswer());
