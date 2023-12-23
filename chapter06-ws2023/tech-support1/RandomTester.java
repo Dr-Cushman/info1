@@ -49,6 +49,4 @@ public class RandomTester {
         RandomTester randomTester = new RandomTester();
         randomTester.randomBetween(1, 5);
     }
-
-    
 }
