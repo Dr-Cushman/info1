@@ -4,7 +4,7 @@ import java.util.ArrayList;;
 public class RandomTester {
     private Random random = new Random();
     // Create an ArrayList with some answers
-    ArrayList<String> responseList = new ArrayList<String>();
+    private ArrayList<String> responseList = new ArrayList<String>();
 
     public void addItems() {
         responseList.add("Random Response 1");
@@ -33,6 +33,11 @@ public class RandomTester {
         System.out.println(random.nextInt(1, 7));
     }
 
+    // Exercise 6.20
+    public void randomBetween(int i, int j) {
+        System.out.println("Your random number between " + i + " and " + j + " is: " + random.nextInt(i, j + 1));
+    }
+
     public void getRandomResponse() {
         // Generate a random number between 1 and 3 and assign it to the rResponseInt
         int rResponseInt = random.nextInt(0, responseList.size() + 1);
@@ -42,7 +47,8 @@ public class RandomTester {
 
     public static void main(String[] args) {
         RandomTester randomTester = new RandomTester();
-        randomTester.addItems();
-        randomTester.getRandomResponse();
+        randomTester.randomBetween(1, 5);
     }
+
+    
 }
