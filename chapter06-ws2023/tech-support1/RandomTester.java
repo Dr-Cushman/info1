@@ -1,23 +1,48 @@
 import java.util.Random;
+import java.util.ArrayList;;
 
 public class RandomTester {
     private Random random = new Random();
+    // Create an ArrayList with some answers
+    ArrayList<String> responseList = new ArrayList<String>();
+
+    public void addItems() {
+        responseList.add("Random Response 1");
+        responseList.add("Random Response 2");
+        responseList.add("Random Response 3");
+        responseList.add("Random Response 4");
+        responseList.add("Random Response 5");
+    }
 
     public void printOneRandom() {
         System.out.println(random.nextInt(100));
     }
 
-    public void printMultiRandom(int howMany) {
-        for(int i = 0; i < howMany; i++) {
-            System.out.println(random.nextInt(100));
+    public void printMultiRandom(int timesToPrintARandomNumber) {
+        for(int i = 0; i < timesToPrintARandomNumber; i++) {
+            System.out.println(random.nextInt());
         }
+    }
+
+    public void printTwoRandom() {
+        System.out.println(random.nextInt(100));
+        System.out.println(random.nextInt(100));
+    }
+
+    public void throwDie() {
+        System.out.println(random.nextInt(1, 7));
+    }
+
+    public void getRandomResponse() {
+        // Generate a random number between 1 and 3 and assign it to the rResponseInt
+        int rResponseInt = random.nextInt(0, responseList.size() + 1);
+        System.out.println(rResponseInt);
+        System.out.println(responseList.get(rResponseInt));
     }
 
     public static void main(String[] args) {
         RandomTester randomTester = new RandomTester();
-        randomTester.printOneRandom();
-        randomTester.printMultiRandom(10);
+        randomTester.addItems();
+        randomTester.getRandomResponse();
     }
 }
-
-// Stopped at page 185
