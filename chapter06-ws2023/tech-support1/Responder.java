@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.HashMap;
+import java.util.HashSet;
 
 /**
  * The responder class represents a response generator object.
@@ -14,6 +15,7 @@ public class Responder
     private Random randomGenerator;
     private ArrayList<String> defaultResponses;
     private HashMap<String, String> responseMap;
+    private int responseTemp;
 
 
     /**
@@ -33,16 +35,33 @@ public class Responder
      * Generate a response.
      * @return   A string that should be displayed as the response
      */
-    public String generateResponse(String word){
-        if (responseMap.get(word) != null ) {
-            return responseMap.get(word);
-        } else {
-            return pickDefaultResponse();
+    public String generateResponse(HashSet<String> words){
+        for (String word : words) {
+            // String response = responseMap.get(word);
+            if (responseMap.get(word) != null ) {
+                return responseMap.get(word);
+            }
         }
+        return pickDefaultResponse();
     }
+        
+    
 
     private String pickDefaultResponse() {
-        return defaultResponses.get(randomGenerator.nextInt(defaultResponses.size()));
+        int randomInt = randomGenerator.nextInt(defaultResponses.size());
+        
+
+        // Check if previous randomInt is equal the newly rolled randomInt
+        if (randomInt != responseTemp) {
+            responseTemp = randomInt;
+            return defaultResponses.get(randomInt);
+        } else {
+            // Roll again
+            randomInt = randomGenerator.nextInt(defaultResponses.size());
+            responseTemp = randomInt;
+            return defaultResponses.get(randomInt);
+            
+        }
     }
 
     private void fillDefaultResponses() {
