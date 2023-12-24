@@ -45,7 +45,7 @@ public class SupportSystem
                 finished = true;
             }
             else {
-                String response = responder.generateResponse();
+                String response = responder.generateResponse(input);
                 System.out.println(response);
             }
         }
@@ -82,4 +82,9 @@ public class SupportSystem
      * java SupportSystem
      * 
      */
+
+     public static void main(String[] args) {
+        SupportSystem supportSystem = new SupportSystem();
+        supportSystem.start();
+     }
 }
