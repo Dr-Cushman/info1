@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
@@ -26,11 +27,25 @@ public class InputReader
      *
      * @return  A String typed by the user.
      */
-    public String getInput()
+    public HashSet<String> getInput()
     {
         System.out.print("> ");         // print prompt
-        String inputLine = reader.nextLine();
+        String inputLine = reader.nextLine().trim().toLowerCase();
 
-        return inputLine;
+        String[] wordArray = inputLine.split(" "); // split at spaces 
+
+        // add words from array into hashset
+        HashSet<String> words = new HashSet<>();
+        for(String word : wordArray) {
+            words.add(word);
+        }   
+
+        // Stream representation NOT TESTED
+        // Arrays.stream(wordArray).forEach(word -> words.add(word));
+
+
+        // Other method which replaces lines 37-40 
+        // HashSet<String> words = new HashSet<>(Arrays.asList(wordArray));
+        return words;
     }
 }
