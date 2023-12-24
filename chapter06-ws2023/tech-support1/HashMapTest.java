@@ -11,12 +11,24 @@ public class HashMapTest {
         contacts.put("Artha", "0135455464");
     }
 
-    public static void main(String[] args) {
-        HashMapTest test = new HashMapTest();
-        System.out.println(test.contacts.size());
-        System.out.println(test.contacts.values());
-        System.out.println(test.contacts.get("Olaf"));
-        
+    public void enterNumber(String name, String number) {
+        contacts.put(name, number);
     }
 
+    public String lookupNumber(String name) {
+        return contacts.get(name);
+    }
+
+    public boolean checkKey(String name) {
+        return contacts.containsKey(name);
+    }
+
+    public static void main(String[] args) {
+        HashMapTest test = new HashMapTest();
+        test.enterNumber("Anna", "001");
+        System.out.println(test.lookupNumber("Anna"));
+        System.out.println(test.checkKey("Anna"));
+        System.out.println(test.contacts.containsValue("test"));
+        System.out.println(test.contacts.keySet());
+    }
 }
