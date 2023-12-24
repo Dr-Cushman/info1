@@ -17,7 +17,7 @@ public class Responder
     public Responder()
     {
         randomGenerator = new Random();
-        responses = new ArrayList<>()
+        responses = new ArrayList<>();
         fillResponses();
     }
 
@@ -43,4 +43,3 @@ public class Responder
     }
 }
 
-// Stopped at 189
