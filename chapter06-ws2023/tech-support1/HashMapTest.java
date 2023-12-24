@@ -14,6 +14,9 @@ public class HashMapTest {
     public static void main(String[] args) {
         HashMapTest test = new HashMapTest();
         System.out.println(test.contacts.size());
+        System.out.println(test.contacts.values());
+        System.out.println(test.contacts.get("Olaf"));
+        
     }
 
 }
