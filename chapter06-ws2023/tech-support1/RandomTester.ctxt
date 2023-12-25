@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RandomTester
+comment1.params=
+comment1.target=RandomTester()
+comment2.params=
+comment2.target=void\ printOneRandom()
+comment3.params=timesToPrintARandomNumber
+comment3.target=void\ printMultiRandom(int)
+comment4.params=
+comment4.target=void\ printTwoRandom()
+comment5.params=
+comment5.target=void\ throwDie()
+comment6.params=i\ j
+comment6.target=void\ randomBetween(int,\ int)
+comment7.params=
+comment7.target=void\ getRandomResponse()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
