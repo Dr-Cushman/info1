@@ -17,6 +17,7 @@ public class SupportSystem
 {
     private InputReader reader;
     private Responder responder;
+    private WordCounter counter;
     
     /**
      * Creates a technical support system.
@@ -41,6 +42,7 @@ public class SupportSystem
         while(!finished) {
             // Assign String input the input string and trim it
             HashSet<String> input = reader.getInput();
+            // counter.addWords(input);
 
             if(input.contains("bye")) {
                 finished = true;
@@ -52,6 +54,7 @@ public class SupportSystem
         }
 
         printGoodbye();
+        // counter.printWordCount();
     }
 
     /**

@@ -79,6 +79,8 @@ public class Responder
         responseMap.put("slow", "Upgrade your computer");
         responseMap.put("bug", "I write clean code, no bugs will ever be found");
         responseMap.put("expensive", "Work harder or stop wasting your money on useless stuff");
+        responseMap.put("money", "Work harder or stop wasting your money on useless stuff");
+
     }
 }
 

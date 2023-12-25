@@ -37,6 +37,7 @@ public class InputReader
         HashSet<String> words = new HashSet<>();
         for(String word : wordArray) {
             words.add(word);
+            
         }   
 
         // Stream representation NOT TESTED
