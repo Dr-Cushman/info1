@@ -18,7 +18,7 @@ public class InstanceCounter
         System.out.println(instanceCount);
     }
 
-    public static void demo(){
+    public static void main (String[] args){
         //exampleForIntanceVariable++;
         new InstanceCounter();
         new InstanceCounter();

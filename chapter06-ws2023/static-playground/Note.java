@@ -15,7 +15,7 @@ public class Note
         instances.add(this);
     }
 
-    public static void demo(){
+    public static void main(String[] args){
         new Note("A");
         new Note("C");
         new Note("D");
