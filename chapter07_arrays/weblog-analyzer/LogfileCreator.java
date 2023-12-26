@@ -66,4 +66,9 @@ public class LogfileCreator
         return new LogEntry(year, month, day, hour, minute);
     }
 
+    public static void main(String[] args) {
+        LogfileCreator creator = new LogfileCreator();
+        creator.createFile("testLogs", 1000);
+    }
+
 }
