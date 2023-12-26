@@ -81,6 +81,7 @@ public class LogAnalyzer
         return total;
     }
 
+    // Exercise 7.17
     public int busiestHour() {
 
         int busiestHour = 0;
@@ -113,6 +114,38 @@ public class LogAnalyzer
 
         System.out.println(busiestHour);
         return busiestHour;
+    }
+
+    // Exercise 7.18
+
+    public void busiestTwoHourPeriod() {
+        // Get Value from index i and index i+1 and sum it up. -> There will be 12 periods 
+        int largestPeriodSum = 0;
+        int largestPeroidIndex = 0;
+
+        for(int i = 0; i < hourCounts.length; i++) {
+            int sumOfCurrentPeriod = 0;
+
+            // if hour is 23 + 1 -> Out of Bounds
+            // But add up hour 23 and 00 and break out of the loop
+            if (i + 1 == hourCounts.length) {
+                sumOfCurrentPeriod = hourCounts[i] + hourCounts[i - i];
+                // Set largestPeriodSum to the new one if it's larger and update the largestPeriodIndex
+                if (sumOfCurrentPeriod > largestPeriodSum) {
+                    largestPeriodSum = sumOfCurrentPeriod;
+                    largestPeroidIndex = i;
+                }
+                break;
+            }
+
+            sumOfCurrentPeriod = hourCounts[i] + hourCounts[i + 1];
+            // Set largestPeriodSum to the new one if it's larger and update the largestPeriodIndex
+            if (sumOfCurrentPeriod > largestPeriodSum) {
+                largestPeriodSum = sumOfCurrentPeriod;
+                largestPeroidIndex = i;
+            }
+        }
+        System.out.println("Busiest two-hour period at hour: " + largestPeroidIndex);
     }
 
     /**

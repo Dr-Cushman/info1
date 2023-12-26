@@ -6,5 +6,6 @@ public class LogTest {
         analyzer.printHourlyCounts();
         analyzer.numberOfAccesses();
         analyzer.busiestHour();
+        analyzer.busiestTwoHourPeriod();
     }
 }
