@@ -1,13 +1,10 @@
 public class Test {
-    public void printStudent(Student s) {
-        
-        System.out.println(s.getDetails());
+    public static void printUpper(String s){
+        s = s.toUpperCase();
+        System.out.println(s);
     }
 
     public static void main(String[] args) {
-        Test test = new Test();
-        Student student = new Student();
-
-        test.printStudent(student);
+        printUpper("Hello");
     }
 }
