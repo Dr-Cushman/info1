@@ -32,8 +32,7 @@ public class Game
     /**
      * Create all the rooms and link their exits together.
      */
-    private void createRooms()
-    {
+    private void createRooms(){
         Room outside, theater, pub, lab, office;
       
         // create the rooms
@@ -44,12 +43,14 @@ public class Game
         office = new Room("in the computing admin office");
         
         // initialise room exits
-        outside.setExits(null, theater, lab, pub);
-        theater.setExits(null, null, null, outside);
-        pub.setExits(null, outside, null, null);
-        lab.setExits(outside, office, null, null);
-        office.setExits(null, null, null, lab);
-
+        outside.setExits("east", theater);
+        outside.setExits("south", lab);
+        outside.setExits("west", pub);
+        theater.setExits("west", outside);
+        pub.setExits("east", outside);
+        lab.setExits("north", outside);
+        lab.setExits("east", office);
+        office.setExits("west", lab);
         currentRoom = outside;  // start game outside
     }
 
@@ -86,7 +87,7 @@ public class Game
 
     private void printLocationInfo() {
         System.out.println("You are " + currentRoom.getDescription());
-        System.out.println(currentRoom.());
+        System.out.println(currentRoom.getExitString());
     }
 
     /**
